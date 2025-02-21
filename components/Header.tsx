@@ -1,39 +1,23 @@
-import { useEffect, useState } from "react";
+import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { generateGithubLink } from "@/helpers/_silabs/generateGithubLink";
 
 interface HeaderProps {
   className?: string;
   navLinks?: { label: string; href: string; target?: string }[];
-  darkLinks?: boolean;
 }
 
 const defaultNavLinks = [
   { label: "Home", href: "/", target: "" },
+  { label: "Changelog", href: "/changelog" },
   {
     label: "GitHub",
-    href: "https://github.com/Bana0615/bootstrap-nextjs-github-pages",
+    href: "https://github.com/SiloCityLabs/fortnite.silocitygames.com",
     target: "_blank",
   },
 ];
 
 function Header(props: HeaderProps) {
-  const [isLoading, setIsLoading] = useState(true);
-  const { className, navLinks = defaultNavLinks, darkLinks = false } = props;
-  
-  const params = {
-    title: "My New Issue",
-    body: "This is a detailed description.\nWith multiple lines.",
-    labels: ["bug", "help wanted"],
-    assignees: "@Bana0615",
-    milestone: 1,
-    //template: "bug_report.md"
-  };
-  useEffect(() => {
-    const feedbackLink = generateGithubLink("Bana0615", "bootstrap-nextjs-github-pages", params);
-    defaultNavLinks.push({ label: "Feedback", href: feedbackLink, target: "_blank" });
-    setIsLoading(false);
-  }, []);
+  const { className, navLinks = defaultNavLinks } = props;
 
   return (
     <Navbar
@@ -44,8 +28,8 @@ function Header(props: HeaderProps) {
       className={`${className}`}
     >
       <Container>
-        <Navbar.Brand href="/">bootstrap-nextjs-github-pages</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className={darkLinks ? 'black-toggler' : ""} />
+        <Navbar.Brand href="/">Fortnite</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {navLinks.map((link, index) => (
