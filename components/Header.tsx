@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 interface HeaderProps {
@@ -9,6 +8,7 @@ interface HeaderProps {
 const defaultNavLinks = [
   { label: "Home", href: "/", target: "" },
   { label: "Changelog", href: "/changelog" },
+  { label: "Feedback", href: "/feedback", target: "" },
   {
     label: "GitHub",
     href: "https://github.com/SiloCityLabs/fortnite.silocitygames.com",
@@ -16,8 +16,13 @@ const defaultNavLinks = [
   },
 ];
 
+const navbarBrand = {
+  title: "bootstrap-nextjs-github-pages",
+  subtitle: "By SiloCityLabs",
+}
+
 function Header(props: HeaderProps) {
-  const { className, navLinks = defaultNavLinks } = props;
+  const { className, navLinks = defaultNavLinks, darkLinks = false } = props;
 
   return (
     <Navbar
@@ -28,8 +33,11 @@ function Header(props: HeaderProps) {
       className={`${className}`}
     >
       <Container>
-        <Navbar.Brand href="/">Fortnite</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="/">
+          {navbarBrand.title}
+          {navbarBrand.subtitle && <span className="navbar-subtitle">{navbarBrand.subtitle}</span>}
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className={darkLinks ? 'black-toggler' : ""} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {navLinks.map((link, index) => (
