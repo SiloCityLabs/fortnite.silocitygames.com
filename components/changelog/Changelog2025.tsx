@@ -6,6 +6,13 @@ function Changelog2025() {
       <Row>
         <Col>
           <p>
+            2/24/2025:{" "}
+            <a href="where-we-droppin/chapter-six/season-two">
+              Chapter 6 Season 2:
+            </a>{" "}
+            Where We Droppin is now available!
+          </p>
+          <p>
             2/11/2025:{" "}
             <a href="where-we-droppin/reload/venture">
               Fortnite Reload: Venture:
