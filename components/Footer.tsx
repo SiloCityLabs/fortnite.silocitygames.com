@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const footer = {
   copyright: {
-    name: "SiloCityLabs",
-    url: "https://silocitylabs.com/",
+    name: "SiloCityGames",
+    url: "https://silocitygames.com/",
   },
   site: {
-    name: "bootstrap-nextjs-github-pages.elbaneh.dev",
-    url: "https://bootstrap-nextjs-github-pages.elbaneh.dev/",
+    name: "fortnite.silocitygames.com",
+    url: "https://fortnite.silocitygames.com/",
   },
 }
 function Footer() {

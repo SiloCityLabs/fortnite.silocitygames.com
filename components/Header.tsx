@@ -18,8 +18,8 @@ const defaultNavLinks = [
 ];
 
 const navbarBrand = {
-  title: "bootstrap-nextjs-github-pages",
-  subtitle: "By SiloCityLabs",
+  title: "Fortnite",
+  subtitle: "By SiloCityGames",
 }
 
 function Header(props: HeaderProps) {
