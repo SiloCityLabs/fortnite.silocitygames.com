@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 interface HeaderProps {
   className?: string;
   navLinks?: { label: string; href: string; target?: string }[];
+  darkLinks?: boolean;
 }
 
 const defaultNavLinks = [
