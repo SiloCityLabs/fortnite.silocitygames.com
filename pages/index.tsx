@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Silo City Games - {process.env.NEXT_PUBLIC_APP_NAME}</title>
+        <title>{`Silo City Games - ${process.env.NEXT_PUBLIC_APP_NAME}`}</title>
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
