@@ -22,6 +22,11 @@
     "variant": "success",
     "buttons": [
       {
+        "link": "where-we-droppin/og/season-three",
+        "disabled": false,
+        "btnText": "Season 3"
+      },
+      {
         "link": "where-we-droppin/og/season-two",
         "disabled": false,
         "btnText": "Season 2"

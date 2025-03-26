@@ -11,7 +11,6 @@ export default function Changelog() {
     <>
       <Head>
         <title>Changelog - Silo City Games - Fortnite</title>
-        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="Stay up-to-date on the latest features, bug fixes, and improvements to our Fortnite tools. See what's new and how we're making your loadout experience even better."

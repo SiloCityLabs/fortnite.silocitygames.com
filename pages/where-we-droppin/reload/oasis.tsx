@@ -15,7 +15,6 @@ export default function WhereWeDroppinOasis() {
     <>
       <Head>
         <title>Fortnite Reload: Oasis - Where We Droppin?</title>
-        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload oasis."
