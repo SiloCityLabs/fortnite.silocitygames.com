@@ -11,15 +11,6 @@ export default function Home() {
     <>
       <Head>
         <title>{`Silo City Games - ${process.env.NEXT_PUBLIC_APP_NAME}`}</title>
-        <link rel="manifest" href="/manifest.json" />
-        <meta
-          name="description"
-          content="Your hub for all fortnite tools built by Silo City Games"
-        />
-        <meta
-          name="keywords"
-          content="Fortnite, hub, location picker, drop spot"
-        />
       </Head>
       <div className="main-container">
         <Header />
