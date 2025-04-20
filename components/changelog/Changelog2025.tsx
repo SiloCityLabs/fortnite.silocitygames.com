@@ -6,43 +6,45 @@ function Changelog2025() {
       <Row>
         <Col>
           <p>
+            4/19/2025:{" "}
+            <a href="drop-roulette/reload/slurp-rush">Reload - Slurp Rush:</a>{" "}
+            Drop Roulette is now available!
+          </p>
+          <p>
             3/26/2025:{" "}
-            <a href="where-we-droppin/og/season-three">OG Season 3:</a> Where We
-            Droppin is now available!
+            <a href="drop-roulette/og/season-three">OG - Season 3:</a> Drop
+            Roulette is now available!
           </p>
           <p>
             2/24/2025:{" "}
-            <a href="where-we-droppin/chapter-six/season-two">
+            <a href="drop-roulette/chapter-six/season-two">
               Chapter 6 Season 2:
             </a>{" "}
-            Where We Droppin is now available!
+            Drop Roulette is now available!
           </p>
           <p>
             2/11/2025:{" "}
-            <a href="where-we-droppin/reload/venture">
-              Fortnite Reload: Venture:
-            </a>{" "}
-            Where We Droppin is now available!
+            <a href="drop-roulette/reload/venture">Reload - Venture:</a> Drop
+            Roulette is now available!
+          </p>
+          <p>
+            2/11/2025: <a href="drop-roulette/reload/oasis">Reload - Oasis:</a>{" "}
+            Drop Roulette is now available!
+          </p>
+          <p>
+            2/11/2025: <a href="drop-roulette/og/season-two">OG - Season 2:</a>{" "}
+            Drop Roulette is now available!
+          </p>
+          <p>
+            2/11/2025: <a href="drop-roulette/og/season-one">OG - Season 1:</a>{" "}
+            Drop Roulette is now available!
           </p>
           <p>
             2/11/2025:{" "}
-            <a href="where-we-droppin/reload/oasis">Fortnite Reload: Oasis:</a>{" "}
-            Where We Droppin is now available!
-          </p>
-          <p>
-            2/11/2025: <a href="where-we-droppin/og/season-two">OG Season 2:</a>{" "}
-            Where We Droppin is now available!
-          </p>
-          <p>
-            2/11/2025: <a href="where-we-droppin/og/season-one">OG Season 1:</a>{" "}
-            Where We Droppin is now available!
-          </p>
-          <p>
-            2/11/2025:{" "}
-            <a href="where-we-droppin/chapter-six/season-one">
+            <a href="drop-roulette/chapter-six/season-one">
               Chapter 6 Season 1:
             </a>{" "}
-            Where We Droppin is now available!
+            Drop Roulette is now available!
           </p>
         </Col>
       </Row>
