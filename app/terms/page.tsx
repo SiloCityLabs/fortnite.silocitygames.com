@@ -1,32 +1,34 @@
-import Head from "next/head";
+import type { Metadata } from "next";
 import { Container, Row, Col } from "react-bootstrap";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+// --- Layout ---
+import PageLayout from "@/components/PageLayout";
 
-export default function Terms() {
+export const metadata: Metadata = {
+  title: "Terms And Conditions",
+  description: "This is the terms and conditions for using our website.",
+  keywords: ["terms and conditions", "legal", "privacy policy"],
+};
+
+export default function TermsPage() {
   return (
-    <>
-      <Head>
-        <title>Terms And Conditions</title>
-        <meta name="description" content="This is the terms and conditions." />
-        <meta name="keywords" content="terms and conditions" />
-      </Head>
-      <div className="main-container">
-        <Header />
-        <Container className="main-content" fluid>
-          <Row>
-            <Col>
-              <Container
-                id="about-us"
-                className="shadow-lg p-3 mb-5 bg-body rounded text-center"
-              >
-                <Row className="justify-content-md-center">
-                  <Col lg={8}>
-                    <div style={{ padding: "10px" }}>
-                      <h1 className="text-center">
-                        Web Site Terms and Conditions of Use
-                      </h1>
-                      <hr />
+    <PageLayout>
+      <Container className="py-3" fluid>
+        <Row>
+          <Col>
+            <Container
+              id="terms-content-wrapper"
+              className="shadow-lg p-3 p-md-4 bg-body rounded"
+            >
+              <Row className="justify-content-md-center">
+                <Col lg={9} xl={8}>
+                  <div style={{ padding: "10px" }}>
+                    <h1 className="text-center mb-4">
+                      Web Site Terms and Conditions of Use
+                    </h1>
+                    <hr className="mb-4" />
+
+                    {/* --- TERMS CONTENT --- */}
+                    <section>
                       <h3>1. Terms</h3>
                       <p>
                         By accessing this web site, you are agreeing to be bound
@@ -38,6 +40,9 @@ export default function Terms() {
                         materials contained in this web site are protected by
                         applicable copyright and trade mark law.
                       </p>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>2. Use License</h3>
                       <ol type="a">
                         <li>
@@ -47,7 +52,7 @@ export default function Terms() {
                           non-commercial transitory viewing only. This is the
                           grant of a license, not a transfer of title, and under
                           this license you may not:
-                          <ol type="i">
+                          <ol type="i" className="mt-2 mb-2">
                             <li>modify or copy the materials;</li>
                             <li>
                               use the materials for any commercial purpose, or
@@ -80,6 +85,9 @@ export default function Terms() {
                           electronic or printed format.
                         </li>
                       </ol>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>3. Disclaimer</h3>
                       <ol type="a">
                         <li>
@@ -98,6 +106,9 @@ export default function Terms() {
                           this site.
                         </li>
                       </ol>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>4. Limitations</h3>
                       <p>
                         In no event shall Techreanimate or its suppliers be
@@ -113,6 +124,9 @@ export default function Terms() {
                         consequential or incidental damages, these limitations
                         may not apply to you.
                       </p>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>5. Revisions and Errata</h3>
                       <p>
                         The materials appearing on Techreanimate&apos;s web site
@@ -124,6 +138,9 @@ export default function Terms() {
                         Techreanimate does not, however, make any commitment to
                         update the materials.
                       </p>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>6. Links</h3>
                       <p>
                         Techreanimate has not reviewed all of the sites linked
@@ -133,6 +150,9 @@ export default function Terms() {
                         site. Use of any such linked web site is at the
                         user&apos;s own risk.
                       </p>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>7. Site Terms of Use Modifications</h3>
                       <p>
                         Techreanimate may revise these terms of use for its web
@@ -140,6 +160,9 @@ export default function Terms() {
                         you are agreeing to be bound by the then current version
                         of these Terms and Conditions of Use.
                       </p>
+                    </section>
+
+                    <section className="mt-4">
                       <h3>8. Governing Law</h3>
                       <p>
                         Any claim relating to Techreanimate&apos;s web site
@@ -150,7 +173,12 @@ export default function Terms() {
                         General Terms and Conditions applicable to Use of a Web
                         Site.
                       </p>
-                      <h2>Privacy Policy</h2>
+                    </section>
+
+                    {/* --- PRIVACY POLICY CONTENT --- */}
+                    <section className="mt-5">
+                      <h2 className="text-center mb-4">Privacy Policy</h2>
+                      <hr className="mb-4" />
                       <p>
                         Your privacy is very important to us. Accordingly, we
                         have developed this Policy in order for you to
@@ -158,65 +186,81 @@ export default function Terms() {
                         and make use of personal information. The following
                         outlines our privacy policy.
                       </p>
-                      <ul>
-                        <li>
+                      <ul className="list-unstyled mt-3">
+                        <li className="mb-2">
+                          <span className="fw-semibold">
+                            Purpose Identification:
+                          </span>{" "}
                           Before or at the time of collecting personal
                           information, we will identify the purposes for which
                           information is being collected.
                         </li>
-                        <li>
-                          We will collect and use of personal information solely
+                        <li className="mb-2">
+                          <span className="fw-semibold">
+                            Consent & Use Limitation:
+                          </span>{" "}
+                          We will collect and use personal information solely
                           with the objective of fulfilling those purposes
                           specified by us and for other compatible purposes,
                           unless we obtain the consent of the individual
                           concerned or as required by law.
                         </li>
-                        <li>
+                        <li className="mb-2">
+                          <span className="fw-semibold">Data Retention:</span>{" "}
                           We will only retain personal information as long as
                           necessary for the fulfillment of those purposes.
                         </li>
-                        <li>
+                        <li className="mb-2">
+                          <span className="fw-semibold">
+                            Collection Method:
+                          </span>{" "}
                           We will collect personal information by lawful and
                           fair means and, where appropriate, with the knowledge
                           or consent of the individual concerned.
                         </li>
-                        <li>
+                        <li className="mb-2">
+                          <span className="fw-semibold">Data Quality:</span>{" "}
                           Personal data should be relevant to the purposes for
                           which it is to be used, and, to the extent necessary
                           for those purposes, should be accurate, complete, and
                           up-to-date.
                         </li>
-                        <li>
+                        <li className="mb-2">
+                          <span className="fw-semibold">
+                            Security Safeguards:
+                          </span>{" "}
                           We will protect personal information by reasonable
                           security safeguards against loss or theft, as well as
                           unauthorized access, disclosure, copying, use or
                           modification.
                         </li>
-                        <li>
-                          We will make readily available to customers
-                          information about our policies and practices relating
-                          to the management of personal information.
+                        <li className="mb-2">
+                          <span className="fw-semibold">Openness:</span> We will
+                          make readily available to customers information about
+                          our policies and practices relating to the management
+                          of personal information.
                         </li>
                       </ul>
-                      <p>
+                      <p className="mt-3">
                         We are committed to conducting our business in
                         accordance with these principles in order to ensure that
                         the confidentiality of personal information is protected
                         and maintained.
                       </p>
-                      <br />
+                    </section>
+
+                    <hr className="mt-5" />
+                    <p className="text-muted text-center mt-3 small">
                       This document was last updated on October 26, 2013 4:17PM
                       EST
-                      <br />
-                    </div>
-                  </Col>
-                </Row>
-              </Container>
-            </Col>
-          </Row>
-        </Container>
-        <Footer />
-      </div>
-    </>
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+        </Row>
+      </Container>
+    </PageLayout>
   );
 }
