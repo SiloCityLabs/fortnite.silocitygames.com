@@ -1,12 +1,12 @@
-import { Container, Row, Col } from "react-bootstrap";
-import type { Metadata } from "next";
+import { Container, Row, Col } from 'react-bootstrap';
+import type { Metadata } from 'next';
 // --- Layout ---
-import PageLayout from "@/components/PageLayout";
+import PageLayout from '@/components/PageLayout';
 // --- Components ---
-import ChangelogTabs from "@/components/ChangelogTabs";
+import ChangelogTabs from '@/components/ChangelogTabs';
 
 export const metadata: Metadata = {
-  title: "Changelog",
+  title: 'Changelog',
   description:
     "Stay up-to-date on the latest features, bug fixes, and improvements to RoyaleHub. See what's new and how we're making your loadout experience even better.",
 };
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 export default function ChangelogPage() {
   return (
     <PageLayout>
-      <Container className="mt-3 mb-3">
-        <Row className="shadow-lg p-3 bg-body rounded">
+      <Container className='mt-3 mb-3'>
+        <Row className='shadow-lg p-3 bg-body rounded'>
           <Col>
             <ChangelogTabs />
           </Col>
