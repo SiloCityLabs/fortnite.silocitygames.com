@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+// --- React ---
+import { useEffect } from 'react';
+// --- Next ---
+import { useRouter } from 'next/navigation';
 
 // Define or import your redirects map
 const redirects: Record<string, string> = {
-  "/where-we-droppin/chapter-six/season-one":
-    "/drop-roulette/chapter-six/season-one",
-  "/where-we-droppin/chapter-six/season-two":
-    "/drop-roulette/chapter-six/season-two",
-  "/where-we-droppin/og/season-one": "/drop-roulette/og/season-one",
-  "/where-we-droppin/og/season-two": "/drop-roulette/og/season-two",
-  "/where-we-droppin/og/season-three": "/drop-roulette/og/season-three",
-  "/where-we-droppin/reload/oasis": "/drop-roulette/reload/oasis",
-  "/where-we-droppin/reload/venture": "/drop-roulette/reload/venture",
+  '/where-we-droppin/chapter-six/season-one': '/drop-roulette/chapter-six/season-one',
+  '/where-we-droppin/chapter-six/season-two': '/drop-roulette/chapter-six/season-two',
+  '/where-we-droppin/og/season-one': '/drop-roulette/og/season-one',
+  '/where-we-droppin/og/season-two': '/drop-roulette/og/season-two',
+  '/where-we-droppin/og/season-three': '/drop-roulette/og/season-three',
+  '/where-we-droppin/reload/oasis': '/drop-roulette/reload/oasis',
+  '/where-we-droppin/reload/venture': '/drop-roulette/reload/venture',
 };
 
 export default function NotFoundRedirector() {

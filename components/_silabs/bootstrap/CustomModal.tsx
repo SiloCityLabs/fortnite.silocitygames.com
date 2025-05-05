@@ -1,5 +1,6 @@
-import React from "react";
-import { Modal, Button } from "react-bootstrap";
+// --- React ---
+import React from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
 interface ModalProps {
   variant: string;
@@ -10,14 +11,7 @@ interface ModalProps {
   children: React.ReactNode;
 }
 
-const CustomModal: React.FC<ModalProps> = ({
-  variant,
-  show,
-  onClose,
-  onSave,
-  title,
-  children,
-}) => {
+const CustomModal: React.FC<ModalProps> = ({ variant, show, onClose, onSave, title, children }) => {
   return (
     <Modal show={show} onHide={onClose}>
       <Modal.Header closeButton>
@@ -25,7 +19,7 @@ const CustomModal: React.FC<ModalProps> = ({
       </Modal.Header>
       <Modal.Body>{children}</Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={onClose}>
+        <Button variant='secondary' onClick={onClose}>
           Close
         </Button>
         <Button variant={variant} onClick={onSave}>

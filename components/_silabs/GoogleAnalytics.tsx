@@ -1,8 +1,10 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
-import Script from "next/script";
+// --- React ---
+import { useEffect } from 'react';
+// --- Next ---
+import { usePathname, useSearchParams } from 'next/navigation';
+import Script from 'next/script';
 
 interface GoogleAnalyticsProps {
   gaId: string;
@@ -15,21 +17,19 @@ export default function GoogleAnalytics({ gaId }: GoogleAnalyticsProps) {
   useEffect(() => {
     if (pathname && searchParams && window.gtag) {
       const url = pathname + searchParams.toString();
-      window.gtag("config", gaId, {
-        page_path: url,
-      });
+      window.gtag('config', gaId, { page_path: url });
     }
   }, [pathname, searchParams, gaId]);
 
   return (
     <>
       <Script
-        strategy="afterInteractive"
+        strategy='afterInteractive'
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
       />
       <Script
-        id="gtag-init"
-        strategy="afterInteractive"
+        id='gtag-init'
+        strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
