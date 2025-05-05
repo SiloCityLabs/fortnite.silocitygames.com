@@ -5,7 +5,7 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/DropRoulette';
 // --- Data ---
-import mapInfo from '@/json/drop-spot/battle-royal/chapter-six/season-one.json';
+import mapInfo from '@/json/drop-spot/battle-royal/chapter-six/mini-season-one.json';
 
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Chapter 6 Mini Season 1',
