@@ -2,48 +2,24 @@
   {
     "title": "Battle Royal",
     "drops": [
-      {
-        "title": "CH6S1",
-        "link": "drop-roulette/chapter-six/season-one"
-      },
-      {
-        "title": "CH6S2",
-        "link": "drop-roulette/chapter-six/season-two"
-      }
+      { "title": "CH6S1", "link": "drop-roulette/chapter-six/season-one" },
+      { "title": "CH6S2", "link": "drop-roulette/chapter-six/season-two" }
     ]
   },
   {
     "title": "OG - Battle Royal",
     "drops": [
-      {
-        "title": "Season 1",
-        "link": "drop-roulette/og/season-one"
-      },
-      {
-        "title": "Season 2",
-        "link": "drop-roulette/og/season-two"
-      },
-      {
-        "title": "Season 3",
-        "link": "drop-roulette/og/season-three"
-      }
+      { "title": "Season 1", "link": "drop-roulette/og/season-one" },
+      { "title": "Season 2", "link": "drop-roulette/og/season-two" },
+      { "title": "Season 3", "link": "drop-roulette/og/season-three" }
     ]
   },
   {
     "title": "Reload",
     "drops": [
-      {
-        "title": "Oasis",
-        "link": "drop-roulette/reload/oasis"
-      },
-      {
-        "title": "Venture",
-        "link": "drop-roulette/reload/venture"
-      },
-      {
-        "title": "Slurp Rush",
-        "link": "drop-roulette/reload/slurp-rush"
-      }
+      { "title": "Oasis", "link": "drop-roulette/reload/oasis" },
+      { "title": "Venture", "link": "drop-roulette/reload/venture" },
+      { "title": "Slurp Rush", "link": "drop-roulette/reload/slurp-rush" }
     ]
   }
 ]

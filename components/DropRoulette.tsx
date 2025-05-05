@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 //Components
-import { Container, Row, Col, Button, Spinner } from "react-bootstrap";
-import WheelComponent from "react-wheel-of-prizes-react19";
-import { LoadingLetters } from "@/components/_silabs/LoadingLetters";
+import { Container, Row, Col, Button, Spinner } from 'react-bootstrap';
+import WheelComponent from 'react-wheel-of-prizes-react19';
+import { LoadingLetters } from '@/components/_silabs/LoadingLetters';
 //Utils
-import { sendEvent } from "@/utils/gtag";
+import { sendEvent } from '@/utils/gtag';
 
 interface DropRouletteProps {
   map: string;
@@ -15,30 +15,25 @@ interface DropRouletteProps {
   mapInfo: string[];
 }
 
-function DropRoulette({
-  map,
-  button_key,
-  ga_label,
-  mapInfo,
-}: DropRouletteProps) {
+function DropRoulette({ map, button_key, ga_label, mapInfo }: DropRouletteProps) {
   const ga_button_id = `${button_key}DropSpot_rollSpot`;
   const ga_label_id = `${ga_label}_DropRoulette`;
   const [isLoading, setIsLoading] = useState(false);
   const [isSpinning, setIsSpinning] = useState(false);
-  const [spinResult, setSpinResult] = useState("????");
-  const segColors = ["#329337", "#9D4EBB"];
+  const [spinResult, setSpinResult] = useState('????');
+  const segColors = ['#329337', '#9D4EBB'];
 
   useEffect(() => {
     setIsLoading(true);
   }, []);
 
   const onFinished = (winner: string) => {
-    setSpinResult("");
+    setSpinResult('');
     setIsSpinning(true);
-    sendEvent("button_click", {
+    sendEvent('button_click', {
       button_id: ga_button_id,
       label: ga_label_id,
-      category: "DropRoulette",
+      category: 'DropRoulette',
     });
 
     setTimeout(() => {
@@ -48,12 +43,12 @@ function DropRoulette({
   };
 
   const handleClick = async () => {
-    setSpinResult("");
+    setSpinResult('');
     setIsSpinning(true);
-    sendEvent("button_click", {
+    sendEvent('button_click', {
       button_id: ga_button_id,
       label: ga_label_id,
-      category: "DropRoulette",
+      category: 'DropRoulette',
     });
 
     setTimeout(() => {
@@ -64,43 +59,40 @@ function DropRoulette({
 
   return (
     <>
-      <Container id="drop-roulette">
-        <Row className="justify-content-md-center">
+      <Container id='drop-roulette'>
+        <Row className='justify-content-md-center'>
           {isLoading && (
             <>
-              <Row className="mb-3">
-                <Col sm className="text-center mb-4 mb-md-0">
-                  <span className="fw-bolder fs-5">Map:</span> <br />
-                  <span className="text-muted fs-6">{map}</span>
+              <Row className='mb-3'>
+                <Col sm className='text-center mb-4 mb-md-0'>
+                  <span className='fw-bolder fs-5'>Map:</span> <br />
+                  <span className='text-muted fs-6'>{map}</span>
                 </Col>
-                <Col sm className="text-center">
-                  <span className="fw-bolder fs-5">Winner:</span> <br />
+                <Col sm className='text-center'>
+                  <span className='fw-bolder fs-5'>Winner:</span> <br />
                   {!isSpinning ? (
-                    <span className="text-muted fs-6">
+                    <span className='text-muted fs-6'>
                       <LoadingLetters
                         text={spinResult}
                         loadingDuration={5000}
                         interval={100}
-                        className="loading-text"
+                        className='loading-text'
                       />
                     </span>
                   ) : (
-                    <Spinner animation="border" />
+                    <Spinner animation='border' />
                   )}
                 </Col>
               </Row>
-              <Col
-                lg={12}
-                className="d-flex justify-content-center d-none d-md-flex"
-              >
+              <Col lg={12} className='d-flex justify-content-center d-none d-md-flex'>
                 <WheelComponent
                   segments={mapInfo}
                   segColors={segColors}
-                  winningSegment="random"
+                  winningSegment='random'
                   onFinished={(winner) => onFinished(winner)}
-                  primaryColor="black"
-                  contrastColor="white"
-                  buttonText="Spin"
+                  primaryColor='black'
+                  contrastColor='white'
+                  buttonText='Spin'
                   isOnlyOnce={false}
                   size={300}
                   upDuration={200}
@@ -108,15 +100,14 @@ function DropRoulette({
                   randomWinningSegment={true}
                 />
               </Col>
-              <Col xs md="8" lg="6" className="text-center mt-5 mt-md-0">
-                <div className="d-flex justify-content-center">
+              <Col xs md='8' lg='6' className='text-center mt-5 mt-md-0'>
+                <div className='d-flex justify-content-center'>
                   <Button
-                    variant="success"
-                    className="w-50 me-2 d-block d-md-none"
+                    variant='success'
+                    className='w-50 me-2 d-block d-md-none'
                     disabled={isSpinning}
-                    onClick={isSpinning ? undefined : handleClick}
-                  >
-                    {isSpinning ? "Choosing Spot..." : "Randomize Spot"}
+                    onClick={isSpinning ? undefined : handleClick}>
+                    {isSpinning ? 'Choosing Spot...' : 'Randomize Spot'}
                   </Button>
                 </div>
               </Col>
