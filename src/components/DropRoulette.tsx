@@ -1,12 +1,13 @@
 'use client';
 
+// --- React ---
 import { useEffect, useState } from 'react';
-//Components
 import { Container, Row, Col, Button, Spinner } from 'react-bootstrap';
+// --- Components ---
 import WheelComponent from 'react-wheel-of-prizes-react19';
-import { LoadingLetters } from '@/components/_silabs/LoadingLetters';
-//Utils
-import { sendEvent } from '@/utils/gtag';
+import { LoadingLetters } from '@silocitypages/ui-core';
+// --- Utils ---
+import { sendEvent } from '@silocitypages/utils';
 
 interface DropRouletteProps {
   map: string;

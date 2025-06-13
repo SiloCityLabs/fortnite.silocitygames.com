@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 // --- Layout ---
 import PageLayout from '@/components/PageLayout';
 // --- Components ---
-import ChangelogTabs from '@/components/ChangelogTabs';
+import ChangelogTabs from '@/components/changelog/ChangelogTabs';
 
 export const metadata: Metadata = {
   title: 'Changelog',

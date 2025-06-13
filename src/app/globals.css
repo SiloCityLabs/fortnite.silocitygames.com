@@ -1,8 +1,12 @@
-#main-header {
-  background: #9d4ebb !important;
+:root {
+  --fort-purple: #9d4ebb;
 }
 
-#main-header a {
+#site-header {
+  background: var(--fort-purple) !important;
+}
+
+#site-header a {
   color: white !important;
 }
 

@@ -4,7 +4,7 @@ import Link from 'next/link';
 // --- Layout ---
 import PageLayout from '@/components/PageLayout';
 // --- Components ---
-import SclBadge from '@/components/_silabs/SclBadge';
+import { SclBadge } from '@silocitypages/ui-core';
 // --- FontAwesome ---
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faDice } from '@fortawesome/free-solid-svg-icons';
