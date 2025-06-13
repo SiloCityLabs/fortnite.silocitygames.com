@@ -5,15 +5,15 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/DropRoulette';
 // --- Data ---
-import mapInfo from '@/json/drop-spot/reload/slurp-rush.json';
+import mapInfo from '@/data/drop-spot/reload/oasis.json';
 
 export const metadata: Metadata = {
-  title: 'Drop Roulette - Fortnite Reload: Slurp Rush',
+  title: 'Drop Roulette - Fortnite Reload: Oasis',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload slurp-rush.',
+    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload oasis.',
 };
 
-export default function DropRouletteSlurpRushPage() {
+export default function DropRouletteOasisPage() {
   return (
     <PageLayout>
       <Container className='mt-3 mb-3'>
@@ -23,14 +23,14 @@ export default function DropRouletteSlurpRushPage() {
               Drop Roulette
               <span className='d-none d-sm-inline-block'>&nbsp;-&nbsp;</span>
               <br className='d-block d-sm-none' />
-              Fortnite Reload: Slurp Rush
+              Fortnite Reload: Oasis
             </h2>
             <hr />
 
             <DropRoulette
-              map='Reload - Slurp Rush'
-              button_key='reload-slurp-rush'
-              ga_label='ReloadSlurpRush'
+              map='Reload - Oasis'
+              button_key='reload-oasis'
+              ga_label='ReloadOasis'
               mapInfo={mapInfo}
             />
           </Col>

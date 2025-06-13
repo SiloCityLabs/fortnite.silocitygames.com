@@ -5,7 +5,7 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/DropRoulette';
 // --- Data ---
-import mapInfo from '@/json/drop-spot/og/season-one.json';
+import mapInfo from '@/data/drop-spot/og/season-one.json';
 
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite OG Season 1',

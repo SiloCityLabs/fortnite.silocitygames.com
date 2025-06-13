@@ -5,15 +5,15 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/DropRoulette';
 // --- Data ---
-import mapInfo from '@/json/drop-spot/reload/venture.json';
+import mapInfo from '@/data/drop-spot/og/season-one.json';
 
 export const metadata: Metadata = {
-  title: 'Drop Roulette - Fortnite Reload: Venture',
+  title: 'Drop Roulette - Fortnite OG Season 3',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload venture.',
+    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 3.',
 };
 
-export default function DropRouletteVenturePage() {
+export default function DropRouletteOgS03Page() {
   return (
     <PageLayout>
       <Container className='mt-3 mb-3'>
@@ -23,14 +23,14 @@ export default function DropRouletteVenturePage() {
               Drop Roulette
               <span className='d-none d-sm-inline-block'>&nbsp;-&nbsp;</span>
               <br className='d-block d-sm-none' />
-              Fortnite Reload: Venture
+              Fortnite OG Season 3
             </h2>
             <hr />
 
             <DropRoulette
-              map='Reload - Venture'
-              button_key='reload-venture'
-              ga_label='ReloadVenture'
+              map='OG Season 3'
+              button_key='br-og-3'
+              ga_label='BrOg-3'
               mapInfo={mapInfo}
             />
           </Col>

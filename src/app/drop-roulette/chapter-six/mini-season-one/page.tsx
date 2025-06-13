@@ -5,15 +5,15 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/DropRoulette';
 // --- Data ---
-import mapInfo from '@/json/drop-spot/og/season-two.json';
+import mapInfo from '@/data/drop-spot/battle-royal/chapter-six/mini-season-one.json';
 
 export const metadata: Metadata = {
-  title: 'Drop Roulette - Fortnite OG Season 2',
+  title: 'Drop Roulette - Fortnite Chapter 6 Mini Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 2.',
+    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite chapter 6 mini season 1. The Star Wars season!',
 };
 
-export default function DropRouletteOgS02Page() {
+export default function DropRouletteCh06S01Page() {
   return (
     <PageLayout>
       <Container className='mt-3 mb-3'>
@@ -23,14 +23,14 @@ export default function DropRouletteOgS02Page() {
               Drop Roulette
               <span className='d-none d-sm-inline-block'>&nbsp;-&nbsp;</span>
               <br className='d-block d-sm-none' />
-              Fortnite OG Season 2
+              Fortnite Chapter 6 Mini Season 1
             </h2>
             <hr />
 
             <DropRoulette
-              map='OG Season 2'
-              button_key='br-og-2'
-              ga_label='BrOg-2'
+              map='Chapter 6 Mini Season 1'
+              button_key='br-ch6-1'
+              ga_label='BrCh6-1'
               mapInfo={mapInfo}
             />
           </Col>

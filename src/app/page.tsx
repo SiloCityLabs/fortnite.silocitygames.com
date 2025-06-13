@@ -9,7 +9,7 @@ import SclBadge from '@/components/_silabs/SclBadge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faDice } from '@fortawesome/free-solid-svg-icons';
 // --- Data ---
-import generatorList from '@/json/index/drop-spot-list.json';
+import generatorList from '@/data/index/drop-spot-list.json';
 
 export default function HomePage() {
   return (
