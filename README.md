@@ -83,3 +83,7 @@ For official information, please visit the [Official Fortnite website](https://w
 ## 📄 License
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
+
+**RoyalHub** is made with ❤️ by SiloCityLabs for the Fortnite community.
