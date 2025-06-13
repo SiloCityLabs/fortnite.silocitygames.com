@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 // --- Next ---
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Bangers } from 'next/font/google';
 // --- Components ---
 import { GoogleAnalytics } from '@silocitypages/ui-core';
 import { WebSite, WithContext } from 'schema-dts';
@@ -38,14 +38,15 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, maximumScale: 1 };
 
 // Setup a font
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const bangers = Bangers({ subsets: ['latin'], weight: '400', variable: '--font-bangers' });
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const websiteSchema: WithContext<WebSite> = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Off The Grid',
-    url: 'https://offthegrid.silocitygames.com/',
+    name: 'RoyaleHub',
+    url: 'https://fortnite.silocitygames.com/',
   };
 
   return (
@@ -54,7 +55,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <StructuredData data={websiteSchema} />
       </head>
 
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${bangers.variable}`}>
         {children}
 
         {GA_TRACKING_ID && (
