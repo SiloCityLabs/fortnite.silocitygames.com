@@ -1,7 +1,7 @@
 # RoyalHub
 
-[![Visit Site](https://img.shields.io/badge/Visit-offthegrid.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
-[![Official Game](https://img.shields.io/badge/Off%20The%20Grid%20Game-gameoffthegrid.com-lightgrey?style=for-the-badge)](https://www.epicgames.com/fortnite)
+[![Visit Site](https://img.shields.io/badge/Visit-fortnite.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
+[![Official Game](https://img.shields.io/badge/Fortnite-epicgames.com/fortnite-lightgrey?style=for-the-badge)](https://www.epicgames.com/fortnite)
 
 Welcome to **RoyalHub**\! This is your essential utility website and toolkit for the game [Fortnite](https://www.epicgames.com/fortnite), providing helpful tools and information to enhance your gameplay experience.
 

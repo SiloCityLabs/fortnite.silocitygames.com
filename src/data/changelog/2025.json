@@ -1,5 +1,17 @@
 [
   {
+    "Date": "June 13, 2025",
+    "Type": "Upgrade",
+    "Link": { "Url": "/", "Text": "Landing Page:" },
+    "Changes": "Completely redesigned landing page with improved navigation and a streamlined user experience."
+  },
+  {
+    "Date": "June 11, 2025",
+    "Type": "Upgrade",
+    "Link": { "Url": "", "Text": "" },
+    "Changes": "RoyalHub has been upgraded to the latest version of Silo City Pages, bringing performance and stability improvements across the board."
+  },
+  {
     "Date": "May 5, 2025",
     "Type": "New",
     "Link": {
