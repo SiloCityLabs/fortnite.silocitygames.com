@@ -30,7 +30,7 @@ function Changelog({ data }) {
               <p>
                 {entry.Link?.Url && entry.Link?.Text && (
                   <>
-                    <Link href={entry.Link.Url} className='text-decoration-none'>
+                    <Link href={entry.Link.Url} className='text-fort text-decoration-none'>
                       {entry.Link.Text}
                     </Link>{' '}
                   </>
