@@ -1,3 +1,0 @@
-User-agent: *
-Sitemap: https://fortnite.silocitygames.com/sitemap.xml
-Crawl-delay: 1
