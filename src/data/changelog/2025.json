@@ -18,6 +18,12 @@
     "Changes": "RoyalHub has been upgraded to the latest version of Silo City Pages, bringing performance and stability improvements across the board."
   },
   {
+    "Date": "June 10, 2025",
+    "Type": "New",
+    "Link": { "Url": "/about", "Text": "About Us:" },
+    "Changes": "Created an About Us page to provide more information about the project and its goals."
+  },
+  {
     "Date": "May 5, 2025",
     "Type": "New",
     "Link": {
