@@ -5,7 +5,7 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/drop-roulette/DropRoulette';
 // --- Data ---
-import mapInfo from '@/data/drop-spot/og/season-one.json';
+import mapInfo from '@/data/drop-spot/og/season-three.json';
 // --- Styles ---
 import styles from '@/components/drop-roulette/DropRoulette.module.css';
 
