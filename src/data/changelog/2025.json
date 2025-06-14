@@ -1,5 +1,17 @@
 [
   {
+    "Date": "June 14, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/chapter-six/season-three", "Text": "Chapter 6 Season 3:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "June 14, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-four", "Text": "OG - Season 4:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
     "Date": "June 13, 2025",
     "Type": "Upgrade",
     "Link": { "Url": "/", "Text": "Landing Page:" },
