@@ -2,6 +2,7 @@
   {
     "title": "Battle Royal",
     "drops": [
+      { "title": "CH6S3", "link": "drop-roulette/chapter-six/season-three" },
       { "title": "CH6MS1", "link": "drop-roulette/chapter-six/mini-season-one" },
       { "title": "CH6S2", "link": "drop-roulette/chapter-six/season-two" },
       { "title": "CH6S1", "link": "drop-roulette/chapter-six/season-one" }
@@ -10,6 +11,7 @@
   {
     "title": "OG - Battle Royal",
     "drops": [
+      { "title": "Season 4", "link": "drop-roulette/og/season-four" },
       { "title": "Season 3", "link": "drop-roulette/og/season-three" },
       { "title": "Season 2", "link": "drop-roulette/og/season-two" },
       { "title": "Season 1", "link": "drop-roulette/og/season-one" }
