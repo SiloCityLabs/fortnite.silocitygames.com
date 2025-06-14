@@ -1,0 +1,67 @@
+:root {
+  --fort-purple: #9d4ebb;
+  --fort-white: #ffffff;
+  --fort-light-gray: #c8c8cd;
+  --fort-dark-gray: #191919;
+  --fort-text: #191919;
+}
+
+#site-header {
+  background: var(--fort-purple) !important;
+}
+
+#site-header a {
+  color: white !important;
+}
+
+/* Style the footer */
+.fort-footer {
+  background-color: var(--fort-dark-gray);
+  color: var(--fort-light-gray);
+  margin-top: auto;
+  border-top: 4px solid var(--fort-purple);
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+/* Style the navigation links in the footer */
+.footer-link {
+  color: var(--fort-light-gray) !important;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition:
+    color 0.2s ease-in-out,
+    text-decoration 0.2s ease-in-out;
+}
+
+/* Hover/Focus styles for footer links */
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--fort-purple) !important;
+  text-decoration: none;
+}
+
+/* Ensure Nav items don't add extra bullet points or styles */
+.footer-nav .nav-item {
+  list-style: none;
+}
+
+.copyright-section a {
+  color: var(--fort-purple) !important;
+  font-size: 0.9rem;
+  transition:
+    color 0.2s ease-in-out,
+    text-decoration 0.2s ease-in-out;
+}
+
+.text-fort {
+  color: var(--fort-purple) !important;
+}
+
+.bg-fort {
+  background-color: var(--fort-purple) !important;
+}

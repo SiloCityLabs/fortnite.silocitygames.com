@@ -1,63 +1,89 @@
-# SiloCityPages
+# RoyalHub
 
-Welcome to SiloCityPages, a modern and efficient website framework built using Next.js, React Bootstrap, and TypeScript, designed for optimal performance and easy maintainability. This project leverages the power of GitHub Pages for seamless deployment and hosting. It also uses json files to hold project metadata and custom components to keep the project organized.
+[![Visit Site](https://img.shields.io/badge/Visit-fortnite.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
+[![Official Game](https://img.shields.io/badge/Fortnite-epicgames.com/fortnite-lightgrey?style=for-the-badge)](https://www.epicgames.com/fortnite)
 
-## Table of Contents
+Welcome to **RoyalHub**\! This is your essential utility website and toolkit for the game [Fortnite](https://www.epicgames.com/fortnite), providing helpful tools and information to enhance your gameplay experience.
 
-1.  [Getting Started](#getting-started)
-2.  [Website Setup](#website-setup)
-3.  [Deployment](#deployment)
-4.  [Editing the Website](#editing-the-website)
-5.  [Features](#features)
+This project is built using the [SiloCityPages](https://github.com/SiloCityLabs/SiloCityPages) Next.js starter.
 
-## Getting Started
+## ✨ Key Features
 
-To get started with the SiloCityPages project and run it locally, follow these steps:
+**RoyalHub** offers the following tool to assist players:
 
-1.  **Clone the Repository:**
+- **📍 Drop Roulette:**
+  - Take the guesswork out of your squad's landing spot in Battle Royale.
+  - Randomly selects a named location on the map for you to drop into.
+  - Try it out for various seasons:
+    - [Chapter 6 Season 1](https://fortnite.silocitygames.com/drop-roulette/chapter-six/season-one)
+    - [Chapter 6 Season 2](https://fortnite.silocitygames.com/drop-roulette/chapter-six/season-two)
+    - [Chapter 6 Mini Season 1](https://fortnite.silocitygames.com/drop-roulette/chapter-six/mini-season-one)
+    - [OG Season 1](https://fortnite.silocitygames.com/drop-roulette/og/season-one)
+    - [OG Season 2](https://fortnite.silocitygames.com/drop-roulette/og/season-two)
+    - [OG Season 3](https://fortnite.silocitygames.com/drop-roulette/og/season-three)
+    - [Reload: Oasis](https://fortnite.silocitygames.com/drop-roulette/reload/oasis)
+    - [Reload: Slurp Rush](https://fortnite.silocitygames.com/drop-roulette/reload/slurp-rush)
+    - [Reload: Venture](https://fortnite.silocitygames.com/drop-roulette/reload/venture)
 
-To run the project locally:
+## 🚀 How to Use
 
-```bash
-git clone git@github.com:SiloCityLabs/SiloCityPages.git
-cd SiloCityPages
-```
+1.  **Visit the site:** [fortnite.silocitygames.com](https://fortnite.silocitygames.com)
+2.  **Navigate to your desired Drop Roulette:**
+    - Select a season from the homepage.
+    - Click the "Spin" or "Randomize Spot" button to get a random map location.
 
-```bash
-npm install
-```
+## 🛠️ Technology Stack & Deployment
 
-```bash
-npm run dev
-```
+- **Framework:** [Next.js](https://nextjs.org/) (React Framework)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** CSS Modules, global styles
+- **Base Template:** [SiloCityPages](https://github.com/SiloCityLabs/SiloCityPages)
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## 🖥️ Running Locally
 
-## Website Setup
+To get a local copy up and running for development or testing RoyalHub:
 
-- Copy .env.example and create .env.local and update values
-- Update package.json
-- Update manifest.json
-- Update sitemap.xml
-- Update GA_TRACKING_ID to implement Google Analytics
-- Update .prettierrc to your style needs!
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/SiloCityLabs/fortnite.silocitygames.com.git
+    cd fortnite.silocitygames.com
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) with your browser to see the result.
 
-## Editing the Website
+## 🤝 Contributing to RoyalHub
 
-You can modify the main content of the site by editing the following files:
+Contributions are welcome\! Whether it's bug reports, feature requests, or direct code contributions to **RoyalHub**, your help is appreciated.
 
-- app/pages.tsx: The main landing page of the website.
+- **Found a bug?** Please submit a [Bug Report](https://www.google.com/search?q=https://github.com/SiloCityLabs/fortnite.silocitygames.com/issues/new%3Fassignees%3D%26labels%3Dbug%26template%3Dbug_report.md%26title%3D%255BBUG%255D).
+- **Have an idea for a new feature?** Submit a [Feature Request](https://www.google.com/search?q=https://github.com/SiloCityLabs/fortnite.silocitygames.com/issues/new%3Fassignees%3D%26labels%3Denhancement%26template%3Dfeature-request.md%26title%3D%255BFEATURE%255D).
+- **Want to contribute code?**
+  1.  Fork the Project
+  2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+  3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+  4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+  5.  Open a Pull Request
 
-- app/layout.tsx: The layout file for shared elements like headers or footers.
+You can also provide general feedback through the [Feedback Form](https://fortnite.silocitygames.com/feedback) on the website.
 
-The project auto-updates changes as you edit.
+## 📜 Disclaimer
 
-## Deployment
+**RoyalHub** is a fan-made project and is not officially affiliated with Epic Games or the "Fortnite" game. All game content, names, and trademarks are the property of their respective owners.
 
-This website is hosted on GitHub Pages. To deploy updates create a PR, commit and push. When merged into master github actions will automatically build and deploy.
+For official information, please visit the [Official Fortnite website](https://www.epicgames.com/fortnite).
 
-## Features
+## 📄 License
 
-- **Optimized Performance**: Uses [next/font](https://nextjs.org/docs/basic-features/font-optimization) for automatic font optimization.
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-- **Modern Framework**: Built with the power of Next.js and React.
+---
+
+**RoyalHub** is made with ❤️ by SiloCityLabs for the Fortnite community.

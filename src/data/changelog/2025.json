@@ -1,0 +1,95 @@
+[
+  {
+    "Date": "June 14, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/chapter-six/season-three", "Text": "Chapter 6 Season 3:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "June 14, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-four", "Text": "OG - Season 4:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "June 13, 2025",
+    "Type": "Upgrade",
+    "Link": { "Url": "/", "Text": "Landing Page:" },
+    "Changes": "Redesigned drop roulette pages."
+  },
+  {
+    "Date": "June 13, 2025",
+    "Type": "Upgrade",
+    "Link": { "Url": "/", "Text": "Landing Page:" },
+    "Changes": "Completely redesigned landing page with improved navigation and a streamlined user experience."
+  },
+  {
+    "Date": "June 11, 2025",
+    "Type": "Upgrade",
+    "Link": { "Url": "", "Text": "" },
+    "Changes": "RoyalHub has been upgraded to the latest version of Silo City Pages, bringing performance and stability improvements across the board."
+  },
+  {
+    "Date": "June 10, 2025",
+    "Type": "New",
+    "Link": { "Url": "/about", "Text": "About Us:" },
+    "Changes": "Created an About Us page to provide more information about the project and its goals."
+  },
+  {
+    "Date": "May 5, 2025",
+    "Type": "New",
+    "Link": {
+      "Url": "/drop-roulette/chapter-six/mini-season-one",
+      "Text": "Chapter 6 Mini Season 1:"
+    },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "April 19, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/reload/slurp-rush", "Text": "Reload - Slurp Rush:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "March 26, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-three", "Text": "OG - Season 3:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 24, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/chapter-six/season-two", "Text": "Chapter 6 Season 2:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 11, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/reload/venture", "Text": "Reload - Venture:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 11, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/reload/oasis", "Text": "Reload - Oasis:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 11, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-two", "Text": "OG - Season 2:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 11, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-one", "Text": "OG - Season 1:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "February 11, 2025",
+    "Type": "New",
+    "Link": { "Url": "/drop-roulette/chapter-six/season-one", "Text": "Chapter 6 Season 1:" },
+    "Changes": "Drop Roulette is now available!"
+  }
+]
