@@ -1,23 +1,21 @@
-// --- React ---
 import { Container, Row, Col } from 'react-bootstrap';
-// --- Next
 import type { Metadata } from 'next';
 // --- Layout ---
 import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/drop-roulette/DropRoulette';
 // --- Data ---
-import mapInfo from '@/data/drop-spot/battle-royale/chapter-six/season-three.json';
+import mapInfo from '@/data/drop-spot/blitz-royale/season-one.json';
 // --- Styles ---
 import styles from '@/components/drop-roulette/DropRoulette.module.css';
 
 export const metadata: Metadata = {
-  title: 'Drop Roulette - Fortnite Chapter 6 Season 3',
+  title: 'Drop Roulette - Fortnite Blitz Royale Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite chapter 6 season 3.',
+    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite blitz royale season 1.',
 };
 
-export default function DropRouletteCh06S01Page() {
+export default function DropRouletteBlitzRoyaleS01Page() {
   return (
     <PageLayout>
       <Container className='mt-3 mb-3'>
@@ -27,14 +25,14 @@ export default function DropRouletteCh06S01Page() {
               Drop Roulette
               <span className='d-none d-sm-inline-block'>&nbsp;-&nbsp;</span>
               <br className='d-block d-sm-none' />
-              Fortnite Chapter 6 Season 3
+              Fortnite Blitz Royale Season 1
             </h1>
             <hr />
 
             <DropRoulette
-              map='Chapter 6 Season 3'
-              button_key='br-ch6-3'
-              ga_label='BrCh6-3'
+              map='Fortnite Blitz Royale Season 1'
+              button_key='br-blitz-1'
+              ga_label='BrBlitz-1'
               mapInfo={mapInfo}
             />
           </Col>

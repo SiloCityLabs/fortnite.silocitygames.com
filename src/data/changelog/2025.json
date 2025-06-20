@@ -1,5 +1,14 @@
 [
   {
+    "Date": "June 19, 2025",
+    "Type": "New",
+    "Link": {
+      "Url": "/drop-roulette/blitz-royale/season-one",
+      "Text": "Fortnite Blitz Royale Season 1:"
+    },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
     "Date": "June 14, 2025",
     "Type": "New",
     "Link": { "Url": "/drop-roulette/chapter-six/season-three", "Text": "Chapter 6 Season 3:" },
@@ -8,7 +17,7 @@
   {
     "Date": "June 14, 2025",
     "Type": "New",
-    "Link": { "Url": "/drop-roulette/og/season-four", "Text": "OG - Season 4:" },
+    "Link": { "Url": "/drop-roulette/og/season-four", "Text": "Fortnite OG - Season 4:" },
     "Changes": "Drop Roulette is now available!"
   },
   {
@@ -53,7 +62,7 @@
   {
     "Date": "March 26, 2025",
     "Type": "New",
-    "Link": { "Url": "/drop-roulette/og/season-three", "Text": "OG - Season 3:" },
+    "Link": { "Url": "/drop-roulette/og/season-three", "Text": "Fortnite OG - Season 3:" },
     "Changes": "Drop Roulette is now available!"
   },
   {
@@ -77,13 +86,13 @@
   {
     "Date": "February 11, 2025",
     "Type": "New",
-    "Link": { "Url": "/drop-roulette/og/season-two", "Text": "OG - Season 2:" },
+    "Link": { "Url": "/drop-roulette/og/season-two", "Text": "Fortnite OG - Season 2:" },
     "Changes": "Drop Roulette is now available!"
   },
   {
     "Date": "February 11, 2025",
     "Type": "New",
-    "Link": { "Url": "/drop-roulette/og/season-one", "Text": "OG - Season 1:" },
+    "Link": { "Url": "/drop-roulette/og/season-one", "Text": "Fortnite OG - Season 1:" },
     "Changes": "Drop Roulette is now available!"
   },
   {

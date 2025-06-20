@@ -1,6 +1,6 @@
 [
   {
-    "title": "Battle Royal",
+    "title": "Battle Royale",
     "drops": [
       { "title": "CH6S3", "link": "drop-roulette/chapter-six/season-three" },
       { "title": "CH6MS1", "link": "drop-roulette/chapter-six/mini-season-one" },
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "title": "OG - Battle Royal",
+    "title": "Fortnite OG - Battle Royale",
     "drops": [
       { "title": "Season 4", "link": "drop-roulette/og/season-four" },
       { "title": "Season 3", "link": "drop-roulette/og/season-three" },
@@ -24,5 +24,9 @@
       { "title": "Venture", "link": "drop-roulette/reload/venture" },
       { "title": "Oasis", "link": "drop-roulette/reload/oasis" }
     ]
+  },
+  {
+    "title": "Blitz Royale",
+    "drops": [{ "title": "Season 1", "link": "drop-roulette/blitz-royale/season-one" }]
   }
 ]

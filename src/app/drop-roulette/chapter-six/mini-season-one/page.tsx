@@ -5,7 +5,7 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/drop-roulette/DropRoulette';
 // --- Data ---
-import mapInfo from '@/data/drop-spot/battle-royal/chapter-six/mini-season-one.json';
+import mapInfo from '@/data/drop-spot/battle-royale/chapter-six/mini-season-one.json';
 // --- Styles ---
 import styles from '@/components/drop-roulette/DropRoulette.module.css';
 
@@ -31,8 +31,8 @@ export default function DropRouletteCh06S01Page() {
 
             <DropRoulette
               map='Chapter 6 Mini Season 1'
-              button_key='br-ch6-1'
-              ga_label='BrCh6-1'
+              button_key='br-ch6-ms1'
+              ga_label='BrCh6-ms1'
               mapInfo={mapInfo}
             />
           </Col>

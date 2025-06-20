@@ -5,7 +5,7 @@ import PageLayout from '@/components/PageLayout';
 // --- Components ---
 import DropRoulette from '@/components/drop-roulette/DropRoulette';
 // --- Data ---
-import mapInfo from '@/data/drop-spot/battle-royal/chapter-six/season-two.json';
+import mapInfo from '@/data/drop-spot/battle-royale/chapter-six/season-two.json';
 // --- Styles ---
 import styles from '@/components/drop-roulette/DropRoulette.module.css';
 
