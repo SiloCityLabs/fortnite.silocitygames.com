@@ -20,6 +20,7 @@
   {
     "title": "Reload",
     "drops": [
+      { "title": "Squid Grounds", "link": "drop-roulette/reload/squid-grounds" },
       { "title": "Slurp Rush", "link": "drop-roulette/reload/slurp-rush" },
       { "title": "Venture", "link": "drop-roulette/reload/venture" },
       { "title": "Oasis", "link": "drop-roulette/reload/oasis" }
