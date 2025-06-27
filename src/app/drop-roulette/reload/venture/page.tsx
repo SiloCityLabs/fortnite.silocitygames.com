@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Reload: Venture',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload venture.',
+    "Ready for a new adventure? Don't just play, venture out! Our drop roulette randomly picks your landing spot on the Fortnite Reload: Venture map. Embrace the unknown and start your journey.",
 };
 
 export default function DropRouletteVenturePage() {

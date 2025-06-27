@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite OG Season 2',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 2.',
+    'The OG map evolved. Drop into the season that gave us the legendary Tilted Towers. Use our random drop generator to brave the chaos of Tilted, explore Snobby Shores, or try your luck at Shifty Shafts.',
 };
 
 export default function DropRouletteOgS02Page() {

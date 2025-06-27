@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite OG Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 1.',
+    'Go back to where it all began. No Tilted, no problem. Let our drop roulette take you back to the original Fortnite map. Will you land at the old Dusty Depot, Pleasant Park, or the unnamed factories?',
 };
 
 export default function DropRouletteOgS01Page() {

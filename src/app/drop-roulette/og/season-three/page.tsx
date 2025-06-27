@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite OG Season 3',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 3.',
+    'Look to the sky! As the meteor loomed, a new map took shape. Randomly drop into the world of OG Season 3. Will you land at the newly added Lucky Landing or find a spot with a perfect view of the comet?',
 };
 
 export default function DropRouletteOgS03Page() {

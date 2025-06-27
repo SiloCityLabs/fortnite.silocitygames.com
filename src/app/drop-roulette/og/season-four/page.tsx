@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite OG Season 4',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite og season 4.',
+    "Embrace the impact. The meteor has struck, creating Dusty Divot and a world of new locations! Let fate decide your drop in OG Season 4. Will you explore the crater, catch a film at Risky Reels, or find a hero's lair?",
 };
 
 export default function DropRouletteOgS03Page() {

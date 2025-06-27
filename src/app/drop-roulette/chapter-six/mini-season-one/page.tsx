@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Chapter 6 Mini Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite chapter 6 mini season 1. The Star Wars season!',
+    'Choose your destiny in the Star Wars galaxy! Use our drop roulette for a random landing spot on the Fortnite Chapter 6 mini-season map. Where will the Force guide you?',
 };
 
 export default function DropRouletteCh06S01Page() {

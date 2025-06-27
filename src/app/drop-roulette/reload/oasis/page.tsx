@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Reload: Oasis',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload oasis.',
+    'Is it a refuge or the heat of the battle? Our drop roulette for the Fortnite Reload: Oasis map decides your fate. Find out if your paradise is a safe haven or the center of the storm.',
 };
 
 export default function DropRouletteOasisPage() {

@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Reload: Slurp Rush',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite reload slurp-rush.',
+    'Get your fill of action! The Slurp Rush drop roulette instantly picks your landing spot in Fortnite Reload. Where will the juice take you? Spin now to find out!',
 };
 
 export default function DropRouletteSlurpRushPage() {

@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Chapter 6 Season 2',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite chapter 6 season 2.',
+    "Don't know where to drop in 'Lawless'? Spin the wheel! Our random drop generator gives you a new landing spot for every Fortnite Chapter 6 Season 2 match.",
 };
 
 export default function DropRouletteCh06S01Page() {

@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Chapter 6 Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite chapter 6 season 1.',
+    "Take on the island's spirits! Spin the drop roulette for a random landing spot in Fortnite Chapter 6 Season 1: Hunters. Challenge the map and choose your fate.",
 };
 
 export default function DropRouletteCh06MS01Page() {

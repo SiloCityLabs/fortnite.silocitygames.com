@@ -12,7 +12,7 @@ import styles from '@/components/drop-roulette/DropRoulette.module.css';
 export const metadata: Metadata = {
   title: 'Drop Roulette - Fortnite Blitz Royale Season 1',
   description:
-    'Spice up your Fortnite gameplay! Randomly roll where you should land in fortnite blitz royale season 1.',
+    'No time to hesitate. Blitz Royale is a five-minute frenzy of action. Our drop roulette picks your landing spot instantly so you can get into the fight faster than anyone else.',
 };
 
 export default function DropRouletteBlitzRoyaleS01Page() {
