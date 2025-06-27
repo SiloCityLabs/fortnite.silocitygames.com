@@ -8,7 +8,7 @@ import ChangelogTabs from '@/components/changelog/ChangelogTabs';
 export const metadata: Metadata = {
   title: 'Changelog',
   description:
-    "Stay up-to-date on the latest features, bug fixes, and improvements to RoyaleHub. See what's new and how we're making your loadout experience even better.",
+    "The official RoyaleHub Changelog. See how we're improving your drop roulette with new maps, updated POIs, and bug fixes for the best random landing experience.",
 };
 
 export default function ChangelogPage() {
