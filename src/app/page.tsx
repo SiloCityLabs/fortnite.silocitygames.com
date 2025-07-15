@@ -9,7 +9,7 @@ import '@/public/styles/landing.css';
 
 export default function HomePage() {
   return (
-    <PageLayout>
+    <PageLayout headerLogoUrl='/icons/logo.svg' headerLogoWidth={50} headerLogoHeight={50}>
       <Hero />
       <HowItWorks />
       <DropRoulette />

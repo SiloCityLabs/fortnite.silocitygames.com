@@ -1,7 +1,7 @@
 {
   "id": "fortnite.silocitygames.com",
-  "name": "Silo City Games - Fornite",
-  "short_name": "Fortnite",
+  "name": "Royale Hub",
+  "short_name": "RoyaleHub",
   "description": "Your hub for all fortnite tools built by Silo City Games.",
   "lang": "en-US",
   "dir": "ltr",
@@ -11,5 +11,19 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
-  "icons": []
+  "icons": [
+    {
+      "src": "/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
 }

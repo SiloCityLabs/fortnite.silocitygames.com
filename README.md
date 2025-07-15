@@ -1,15 +1,15 @@
-# RoyalHub
+# RoyaleHub
 
 [![Visit Site](https://img.shields.io/badge/Visit-fortnite.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
 [![Official Game](https://img.shields.io/badge/Fortnite-epicgames.com/fortnite-lightgrey?style=for-the-badge)](https://www.epicgames.com/fortnite)
 
-Welcome to **RoyalHub**\! This is your essential utility website and toolkit for the game [Fortnite](https://www.epicgames.com/fortnite), providing helpful tools and information to enhance your gameplay experience.
+Welcome to **RoyaleHub**\! This is your essential utility website and toolkit for the game [Fortnite](https://www.epicgames.com/fortnite), providing helpful tools and information to enhance your gameplay experience.
 
 This project is built using the [SiloCityPages](https://github.com/SiloCityLabs/SiloCityPages) Next.js starter.
 
 ## ✨ Key Features
 
-**RoyalHub** offers the following tool to assist players:
+**RoyaleHub** offers the following tool to assist players:
 
 - **📍 Drop Roulette:**
   - Take the guesswork out of your squad's landing spot in Battle Royale.
@@ -42,7 +42,7 @@ This project is built using the [SiloCityPages](https://github.com/SiloCityLabs/
 
 ## 🖥️ Running Locally
 
-To get a local copy up and running for development or testing RoyalHub:
+To get a local copy up and running for development or testing RoyaleHub:
 
 1.  **Clone the repository:**
     ```bash
@@ -59,9 +59,9 @@ To get a local copy up and running for development or testing RoyalHub:
     ```
 4.  Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) with your browser to see the result.
 
-## 🤝 Contributing to RoyalHub
+## 🤝 Contributing to RoyaleHub
 
-Contributions are welcome\! Whether it's bug reports, feature requests, or direct code contributions to **RoyalHub**, your help is appreciated.
+Contributions are welcome\! Whether it's bug reports, feature requests, or direct code contributions to **RoyaleHub**, your help is appreciated.
 
 - **Found a bug?** Please submit a [Bug Report](https://www.google.com/search?q=https://github.com/SiloCityLabs/fortnite.silocitygames.com/issues/new%3Fassignees%3D%26labels%3Dbug%26template%3Dbug_report.md%26title%3D%255BBUG%255D).
 - **Have an idea for a new feature?** Submit a [Feature Request](https://www.google.com/search?q=https://github.com/SiloCityLabs/fortnite.silocitygames.com/issues/new%3Fassignees%3D%26labels%3Denhancement%26template%3Dfeature-request.md%26title%3D%255BFEATURE%255D).
@@ -76,7 +76,7 @@ You can also provide general feedback through the [Feedback Form](https://fortni
 
 ## 📜 Disclaimer
 
-**RoyalHub** is a fan-made project and is not officially affiliated with Epic Games or the "Fortnite" game. All game content, names, and trademarks are the property of their respective owners.
+**RoyaleHub** is a fan-made project and is not officially affiliated with Epic Games or the "Fortnite" game. All game content, names, and trademarks are the property of their respective owners.
 
 For official information, please visit the [Official Fortnite website](https://www.epicgames.com/fortnite).
 
@@ -86,4 +86,4 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 
 ---
 
-**RoyalHub** is made with ❤️ by SiloCityLabs for the Fortnite community.
+**RoyaleHub** is made with ❤️ in collaboration with OneBuffaloLabs and SiloCityLabs for the Fortnite community.

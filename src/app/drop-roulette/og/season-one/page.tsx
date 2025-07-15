@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function DropRouletteOgS01Page() {
   return (
-    <PageLayout>
+    <PageLayout headerLogoUrl='/icons/logo.svg' headerLogoWidth={50} headerLogoHeight={50}>
       <Container className='mt-3 mb-3'>
         <Row className='shadow-lg p-3 bg-body rounded'>
           <Col>
