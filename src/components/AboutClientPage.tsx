@@ -20,7 +20,7 @@ export default function AboutClientPage() {
   );
 
   return (
-    <PageLayout>
+    <PageLayout headerLogoUrl='/icons/logo.svg' headerLogoWidth={50} headerLogoHeight={50}>
       <Container className='main-content mt-3 mb-3'>
         <Row className='justify-content-center'>
           <Col lg={10} xl={8}>
