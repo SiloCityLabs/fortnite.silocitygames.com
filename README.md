@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="/public/icons/logo-purple.svg" alt="RoyaleHub Logo" width="200">
+
+  <hr /
+</div>
+
 # RoyaleHub
 
 [![Visit Site](https://img.shields.io/badge/Visit-fortnite.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
