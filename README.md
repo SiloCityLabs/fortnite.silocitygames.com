@@ -1,10 +1,9 @@
-<div align="center">
-  <img src="/public/icons/logo-purple.svg" alt="RoyaleHub Logo" width="200">
-
-  <hr /
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="/public/icons/logo-purple.svg" alt="RoyaleHub Logo" width="100"> 
+  <h1 style="margin: 0;">RoyaleHub</h1>
 </div>
 
-# RoyaleHub
+<hr />
 
 [![Visit Site](https://img.shields.io/badge/Visit-fortnite.silocitygames.com-blue?style=for-the-badge&logo=rocket)](https://fortnite.silocitygames.com)
 [![Official Game](https://img.shields.io/badge/Fortnite-epicgames.com/fortnite-lightgrey?style=for-the-badge)](https://www.epicgames.com/fortnite)
