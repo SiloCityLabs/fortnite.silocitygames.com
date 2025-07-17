@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/public/icons/logo-banner-trans.png" alt="RoyaleHub Logo and Title" width="350"> 
+  <img src="/public/icons/logo-banner-trans.png" alt="RoyaleHub Logo and Title"> 
 </div>
 
 <hr />
