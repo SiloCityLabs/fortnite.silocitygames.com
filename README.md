@@ -86,4 +86,4 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 
 ---
 
-**RoyaleHub** is made with ❤️ in collaboration with OneBuffaloLabs and SiloCityLabs for the Fortnite community.
+**RoyaleHub** is made with ❤️ in collaboration with [OneBuffaloLabs](https://onebuffalolabs.com) and [SiloCityLabs](https://silocitylabs.com) for the Fortnite community.
