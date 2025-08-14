@@ -28,6 +28,9 @@
   },
   {
     "title": "Blitz Royale",
-    "drops": [{ "title": "Season 1", "link": "drop-roulette/blitz-royale/season-one" }]
+    "drops": [
+      { "title": "Oathbound Citadel", "link": "drop-roulette/blitz-royale/oathbound-citadel" },
+      { "title": "Season 1", "link": "drop-roulette/blitz-royale/season-one" }
+    ]
   }
 ]
