@@ -2,6 +2,12 @@
   {
     "Date": "August 14, 2025",
     "Type": "New",
+    "Link": { "Url": "/drop-roulette/og/season-five", "Text": "Fortnite OG - Season 5:" },
+    "Changes": "Drop Roulette is now available!"
+  },
+  {
+    "Date": "August 14, 2025",
+    "Type": "New",
     "Link": {
       "Url": "/drop-roulette/blitz-royale/oathbound-citadel",
       "Text": "Fortnite Blitz Royale Oathbound Citadel:"
