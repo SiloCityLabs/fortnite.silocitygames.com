@@ -2,6 +2,7 @@
   {
     "title": "Battle Royale",
     "drops": [
+      { "title": "CH6S4", "link": "drop-roulette/chapter-six/season-four" },
       { "title": "CH6S3", "link": "drop-roulette/chapter-six/season-three" },
       { "title": "CH6MS1", "link": "drop-roulette/chapter-six/mini-season-one" },
       { "title": "CH6S2", "link": "drop-roulette/chapter-six/season-two" },
